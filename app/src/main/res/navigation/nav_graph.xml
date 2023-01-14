@@ -9,8 +9,7 @@
         android:id="@+id/home_Fragment"
         android:name="com.example.appforfinal.Fragments.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
-    </fragment>
+        tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/image_Fragment"
