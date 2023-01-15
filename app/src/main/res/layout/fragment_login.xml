@@ -72,6 +72,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/EmailAndPasswordLayoutToLogIn" />
 
+    <TextView
+        android:id="@+id/textGoToForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Forgot Password?"
+        android:textColor="#CDDC39"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonToLogIn"
+        tools:ignore="TouchTargetSizeCheck" />
+
     <LinearLayout
         android:id="@+id/LayoutIfDontHaveAnAccount"
         android:layout_width="wrap_content"
@@ -99,7 +113,8 @@
             android:clickable="true"
             android:text="Click to register"
             android:textColor="#CDDC39"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            tools:ignore="TouchTargetSizeCheck" />
 
 
     </LinearLayout>
