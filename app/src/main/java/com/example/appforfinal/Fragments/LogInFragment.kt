@@ -8,4 +8,5 @@ import com.example.appforfinal.R
 
 class LogInFragment : Fragment(R.layout.fragment_login) {
 
+
 }
